@@ -51,12 +51,12 @@
             >
               Categories
             </a>
-            <a
+            {{-- <a
               href="#"
               class="list-group-item list-group-item-action"
             >
               Transactions
-            </a>
+            </a> --}}
             <a
               href="{{ route('user.index') }}"
               class="list-group-item list-group-item-action {{ (request()->is('admin/user*')) ? 'active' : '' }} "

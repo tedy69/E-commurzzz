@@ -38,7 +38,7 @@
                                 Revenue
                             </div>
                             <div class="dashboard-card-subtitle">
-                                ${{ $revenue }}
+                                Rp.{{ $revenue }}
                             </div>
                         </div>
                     </div>
